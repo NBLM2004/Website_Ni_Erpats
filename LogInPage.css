@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1a1a; /* Dark black-gray background */
+    color: #e0e0e0; /* Light gray text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    background: #333; /* Dark gray background for the container */
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6); /* Dark shadow effect */
+    width: 350px;
+    text-align: center;
+    color: #f0f0f0; /* Slightly lighter gray for text */
+}
+
+/* Heading */
+.login-container h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #fff; /* White for emphasis */
+}
+
+/* Form Fields */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-size: 14px;
+    color: #d3d3d3; /* Light gray labels */
+}
+
+input {
+    padding: 12px;
+    font-size: 14px;
+    background: #444; /* Medium gray input background */
+    border: 1px solid #555; /* Border slightly darker than input */
+    color: #fff; /* White text inside inputs */
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #ffffff; /* Bright blue for focus */
+}
+
+/* Submit Button */
+/* Submit Button */
+button {
+    padding: 12px;
+    font-size: 16px;
+    color: #fff; /* Default text color: white */
+    background: #555; /* Default background: gray */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color */
+}
+
+button:hover {
+    background: #fff; /* Change background to white on hover */
+    color: #000; /* Change text color to black on hover */
+}
+
+
+/* Small Note or Links */
+.login-container a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
